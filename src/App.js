@@ -1,9 +1,10 @@
 import Gallery from './gallery.js';
+import Alert from './/programs/alert.js'
 
 export default function Page() {
   return (
     <div className="Page">
-      <Gallery /><br></br>
+      <Alert/><br></br>
       
     </div>
   );
