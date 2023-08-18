@@ -1,10 +1,10 @@
 import Gallery from './gallery.js';
-import Onchange_ex1 from './/programs/onchange_ex1.js'
+import Boolean from './/programs/boolean.js'
 
 export default function Page() {
   return (
     <div className="Page">
-      <Onchange_ex1/><br></br>
+      <Boolean/><br></br>
       
     </div>
   );

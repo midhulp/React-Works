@@ -12,7 +12,7 @@ export default function Change(){
 
     return(
         <div className="App">
-            <input type="text" onChange={changevalue}/>
+            <input type="text" onChange={changevalue}/>            
               <div style={{background:'yellow'}}>{value}</div>  
             
         </div>
