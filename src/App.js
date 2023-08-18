@@ -1,10 +1,11 @@
 import Gallery from './gallery.js';
-import Boolean from './/programs/boolean.js'
+import './App.css';
+import Task1 from './/programs/Task1.js';
 
 export default function Page() {
   return (
     <div className="Page">
-      <Boolean/><br></br>
+      <Task1/><br></br>
       
     </div>
   );

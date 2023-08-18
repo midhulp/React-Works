@@ -1,5 +1,6 @@
 import { useState } from "react";
 
+
 export default function Boolean(){
     const[showname,setshowname]=useState(true)
     const[color,setcolor]=useState("")
