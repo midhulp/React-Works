@@ -36,7 +36,7 @@ export default function Task() {
     const toggleCompleted = (id) => {
         setTodolist(todolist.map((task) => {
             if ((task.id === id)) {
-                return { ...task, completed: true };
+                return { ...task, completed: !task.completed };
             } else {
                 return task;
             }
