@@ -1,13 +1,11 @@
-import Axios from "axios";
+import axios from "axios";
 import { useEffect, useState } from "react";
 
 export default function Cat() {
-    // fetch("https://catfact.ninja/fact").then((res) => res.json()).then((data) => {
-    //     console.log(data);
-    // });
+
     const [fact, setfact] = useState("")
     const catcall = () => {
-        Axios.get("https://catfact.ninja/fact").then((res) => {
+        axios.get("https://catfact.ninja/fact").then((res) => {
             setfact(res.data.fact);
         });
     };
